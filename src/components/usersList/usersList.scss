@@ -1,0 +1,21 @@
+.user-list {
+    padding: 20px 30px;
+    margin-left: 150px;
+    width: 488px;
+    font-size: 11px;
+
+    &__title {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    &__wrapper {
+        margin: 10px 0;
+    }
+
+    &__count {
+        width: 420px;
+        text-align: right;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,26 @@
+.myBtn {
+    height: 24px;
+    padding: 5px 15px;
+    background: #4B51EF;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all .3s;
+
+    &_green {
+        background-color: #52CF4F;
+    }
+
+    &:disabled {
+        background-color: #AFAFAF;
+    }
+
+    &:hover {
+        transform: scale(1.02);
+    }
+    &:active {
+        transform: scale(0.98);
+    }
+}

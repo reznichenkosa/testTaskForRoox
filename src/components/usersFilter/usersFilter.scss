@@ -1,0 +1,16 @@
+.filter-bar {
+    position: fixed;
+    width: 150px;
+    height: 100vh;
+    background: #BDBDBD;
+    padding: 35px 20px;
+    font-size: 12px;
+
+    &__btn-wrapper {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        height: 58px;
+        justify-content: space-between;
+    }
+}

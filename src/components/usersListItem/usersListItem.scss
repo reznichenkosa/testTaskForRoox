@@ -1,0 +1,35 @@
+.userWrapper {
+    width: 420px;
+    height: 73px;
+    background: #F3F3F3;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 15px;
+
+    &__info {
+        span {
+            color: #A3A3A3;
+            padding-right: 7px;
+        }
+    }
+
+    &__link {
+        display: block;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        text-decoration: none;
+        color: #4B51EF;
+        transition: all .3s;
+        &:hover {
+            transform: scale(1.02);
+        }
+        &:active {
+            transform: scale(0.98);
+        }
+    }
+}

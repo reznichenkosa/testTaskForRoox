@@ -1,0 +1,29 @@
+.user-info {
+    padding: 20px 30px;
+    margin-left: 150px;
+    width: 499px;
+
+    &__title-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    &__btn-wrapper {
+        padding: 10px 0;
+        display: flex;
+        justify-content: end;
+    }
+
+    &__title {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+    &__form {
+        margin-top: 10px;
+        padding: 20px 12px 25px;
+        width: 438px;
+        border: 1px solid #F3F3F3;
+        border-radius: 8px;
+    }
+}
